@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*.ts",
+    "./.eslintrc.js",
+    "./front-angular/**/*.ts",
+    "./server-node/**/*.ts",
+    "./hola.js"
+  ],
+  "exclude": [
+    "node_modules",
+    "./front-angular/node_modules",
+    "./server-node/node_modules",
+    "./front-angular/dist",
+    "./server-node/build",
+  ]
+}
